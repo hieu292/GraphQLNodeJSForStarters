@@ -1,0 +1,88 @@
+### Query 1:
+
+query posts {
+  posts{
+    title,
+    person {
+      firstName,
+      lastName
+    }
+  }
+}
++++Result 1:
+{
+  "data": {
+    "posts": [
+      {
+        "title": "Sample post by Hardy",
+        "person": {
+          "firstName": "Hardy",
+          "lastName": "Rodriguez"
+        }
+      },
+      {
+        "title": "Sample post by Julius",
+        "person": {
+          "firstName": "Julius",
+          "lastName": "Fisher"
+        }
+      },
+      {
+        "title": "Sample post by Camila",
+        "person": {
+          "firstName": "Camila",
+          "lastName": "Hessel"
+        }
+      },
+      {
+        "title": "Sample post by Alan",
+        "person": {
+          "firstName": "Alan",
+          "lastName": "Marvin"
+        }
+      },
+      {
+        "title": "Sample post by Amiya",
+        "person": {
+          "firstName": "Amiya",
+          "lastName": "Weissnat"
+        }
+      },
+      {
+        "title": "Sample post by Name",
+        "person": {
+          "firstName": "Name",
+          "lastName": "Lubowitz"
+        }
+      },
+      {
+        "title": "Sample post by Corrine",
+        "person": {
+          "firstName": "Corrine",
+          "lastName": "O'Reilly"
+        }
+      },
+      {
+        "title": "Sample post by Lavon",
+        "person": {
+          "firstName": "Lavon",
+          "lastName": "Waters"
+        }
+      },
+      {
+        "title": "Sample post by Justice",
+        "person": {
+          "firstName": "Justice",
+          "lastName": "McClure"
+        }
+      },
+      {
+        "title": "Sample post by Araceli",
+        "person": {
+          "firstName": "Araceli",
+          "lastName": "Orn"
+        }
+      }
+    ]
+  }
+}

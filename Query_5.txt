@@ -1,0 +1,34 @@
+### Query:
+
+query people {
+  people(email: "Arne_Bednar6@yahoo.com"){
+    id,
+    firstName,
+    lastName,
+    email,
+    posts{
+      content,
+      title
+    }
+  }
+}
+
++++Result:
+{
+  "data": {
+    "people": [
+      {
+        "id": 1,
+        "firstName": "Ryley",
+        "lastName": "Jerde",
+        "email": "Arne_Bednar6@yahoo.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Ryley"
+          }
+        ]
+      }
+    ]
+  }
+}

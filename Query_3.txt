@@ -1,0 +1,15 @@
+### Query:
+
+mutation addPerson {
+  addPerson(firstName: "hieu", lastName: "steve", email: "hieu@gmail.com"){
+    id
+  }
+}
++++Result:
+{
+  "data": {
+    "addPerson": {
+      "id": 11
+    }
+  }
+}

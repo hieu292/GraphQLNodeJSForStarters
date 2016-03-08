@@ -1,0 +1,142 @@
+### Query 1:
+
+query people {
+  people{
+    id,
+    firstName,
+    lastName,
+    email,
+    posts{
+      content,
+      title
+    }
+  }
+}
+
++++Result 1:
+{
+  "data": {
+    "people": [
+      {
+        "id": 1,
+        "firstName": "Hardy",
+        "lastName": "Rodriguez",
+        "email": "Dandre_Nienow54@hotmail.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Hardy"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "firstName": "Julius",
+        "lastName": "Fisher",
+        "email": "Zita24@yahoo.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Julius"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "firstName": "Camila",
+        "lastName": "Hessel",
+        "email": "Americo.Goldner85@hotmail.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Camila"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "firstName": "Alan",
+        "lastName": "Marvin",
+        "email": "Isabelle.Renner98@gmail.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Alan"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "firstName": "Amiya",
+        "lastName": "Weissnat",
+        "email": "Hilario90@gmail.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Amiya"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "firstName": "Name",
+        "lastName": "Lubowitz",
+        "email": "Frances.Lowe@yahoo.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Name"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "firstName": "Corrine",
+        "lastName": "O'Reilly",
+        "email": "Amara_Windler72@yahoo.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Corrine"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "firstName": "Lavon",
+        "lastName": "Waters",
+        "email": "Reva86@yahoo.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Lavon"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "firstName": "Justice",
+        "lastName": "McClure",
+        "email": "Raphaelle.Gutmann@hotmail.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Justice"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "firstName": "Araceli",
+        "lastName": "Orn",
+        "email": "Aurore.Bednar@hotmail.com",
+        "posts": [
+          {
+            "content": "here is some content",
+            "title": "Sample post by Araceli"
+          }
+        ]
+      }
+    ]
+  }
+}
